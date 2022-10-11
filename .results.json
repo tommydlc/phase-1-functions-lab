@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-10-11T17:37:52.316Z",
+    "end": "2022-10-11T17:37:52.548Z",
+    "duration": 232
+  },
+  "tests": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 1 to equal 8",
+        "showDiff": true,
+        "actual": "1",
+        "expected": "8",
+        "stack": "AssertionError: expected 1 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
